@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 174, 58);
+}
+
+.logo{
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 0.3rem;
+}
+
+.first-input,.checkbox{
+    display: flex;
+    gap: 2rem;
+}
+.checkbox{
+    display: flex;
+    gap:5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.checkbox div{
+    width: 10rem;
+}
+
+
+.first-input div,.second-input{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    padding: 0.3rem;
+}
+
+.rating, .checkboxes{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+button{
+    width: 100%;
+    background-color: rgb(240, 161, 16);
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
